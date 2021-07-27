@@ -1,0 +1,34 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.banner{
+    background-color: #bba6a6;
+    border-top: 10px solid #bba6a6 ;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    font-size: 40px;
+}
+.menu{
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+#text-menu{
+    font-size: 20px;
+    color: #ffff;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+#text-menu:hover{
+    color: #bba6a6;
+    background-color: #ffff;
+}
+

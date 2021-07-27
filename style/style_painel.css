@@ -1,0 +1,32 @@
+.sidebar1 {
+    background: -webkit-linear-gradient(#2a1de2, #6259e6, #9d97eb);
+    background: -o-linear-gradient(#2a1de2, #6259e6, #9d97eb);
+    background: -moz-linear-gradient(#2a1de2, #6259e6, #9d97eb);
+    background: linear-gradient(#2a1de2, #6259e6, #9d97eb);
+    width: 160px;
+    height: 170px;
+    border-radius: 10px;
+}
+.list> li, h3{
+    padding: 5px 0px 5px 40px;
+}
+.main-content{
+    color: cornflowerblue;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+}
+body{
+    background-image: url(img/entrar.jpeg);
+    background-size: cover;
+    background-position: 0px;
+
+}
+#text-menu{
+    color: #ffff;
+    text-decoration: none;
+    padding: 30px;
+    border-left: solid white;
+    padding: 5px 0px 5px 40px;
+}

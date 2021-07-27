@@ -1,0 +1,9 @@
+.checkbox label{
+    display:flex;
+    padding: none;
+    margin: none;
+    border: none;
+}
+.checkbox input{
+    width: 25px;
+}

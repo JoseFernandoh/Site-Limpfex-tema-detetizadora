@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: none;
+}
+body{
+    background-image: url(../img/entrar.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.geral{
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label,input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+}
+input{
+    border-bottom: 2px solid blue;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+input:focus{
+    border-bottom: 2px solid #5db15d;
+}
+#forhgot-pass{
+text-align: right;
+display: block;
+font-size: .8rem;
+}
+a:hover{
+    color: #00ffffc4;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: blue;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(43, 255, 0);
+    transition: 1s;
+}
+#btn-codigo{
+    font-size: 10px;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    width: 110px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: blue;
+}
+#btn-codigo:hover{
+    background-color: rgb(40, 241, 124);
+    transition: .1s;
+}
+.singup-senha{
+    text-align: left;
+    font-size: .8rem;
+    font-weight: bolder;
+}
+.checkbox label{
+    display:flex;
+}
+.checkbox input{
+    width: 25px;
+}
+h4{
+    margin: 3px auto 25px auto;
+}
+.telauser{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.btn_a a{
+    padding: 12px;
+    margin-left: 15px;
+}

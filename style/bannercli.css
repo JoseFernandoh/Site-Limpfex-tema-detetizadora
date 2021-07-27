@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner{
+    background-color: #bba6a6;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+h1{
+    margin: 0px;
+    font-size: 40px;
+}
+.layout-tela{
+    display: flex;
+}
+.menu{
+    width: 10%;
+    height: 100%;
+    background-color: #bba6a6;
+    padding: 8% 5px 50% 30px;
+}
+.menu-button{
+    position: fixed;
+
+}
+.menu,ul,ol{
+    display: block;
+}
+ol{
+    padding-bottom: 50px;
+    padding-top: -3px;
+}
+ol a{
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #99888854;
+    font-size: 13px;
+}
+.tela-amostra{
+    margin-top: 35px; 
+}
+#fotoperfil{
+    width: 200px;
+    border-radius: 250px;
+    border: 1px solid #413737
+}
+#btnfoto{
+    background-color: none;
+    text-decoration: none;
+    padding:1px;
+}
+td{
+    border:1px solid #000;
+    padding:20px 100px 20px 100px;
+}
+.tela_amostra{
+    margin-left: 500px;
+}
+.orcamento{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#servico{
+    padding: 20px 40px 20px 40px;
+}
